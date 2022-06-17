@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url('bg-intro-mobile.png');
+    font-size: 16px;
+    color: white;
+    /*margin: auto;*/
+}
+.full-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: auto;
+    padding-top: 50px;
+    width: 80%;
+}
+.intro-text-section {
+    *padding: 0 20px;
+    /*margin: auto 20px;*/
+    max-width: 25rem;
+}
+.intro-text-section h1 {
+    margin-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+.intro-text-section p {
+    font-weight: 400;
+}
+
+.form-section {
+    /*margin: auto 20px;*/
+    /*padding: 0 20px;*/
+    /*min-width: 50%;*/
+}
+.form-section .trial-text {
+    background-color: hsl(248, 32%, 49%);
+    margin-bottom: 20px;
+    margin-top: 70px;
+    text-align: center;
+    border-radius: 6px;
+}
+.form-section .trial-text p {
+    padding: 15px 50px;
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+
+}
+.form-section .trial-text p span {
+    font-weight: 500;
+    color: white;
+}
+
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+form .input-wrapper {
+    height: 40px;
+    margin-bottom: 13px;
+}
+form .input-wrapper input{
+    height: 40px;
+    width: 100%;
+}
+form .button {
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom:  13px;
+
+}
+form .button button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 500;
+    height: 40px;
+    cursor: pointer;
+    
+}
+.policy-text {
+    color: hsl(246, 25%, 77%);
+    font-size: 11px;
+    text-align: center;
+    font-weight: 400;
+
+}
+.policy-text span {
+    color: red;
+}
