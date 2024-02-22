@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+html {
+    /* Set a base font size for the entire page */
+    font-size: 16px; 
+}
 body {
     background-color: hsl(0, 100%, 74%) ;
     background-image: url('bg-intro-desktop.png');
@@ -14,17 +17,15 @@ body {
 }
 .full-contain {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items:center;
     flex-wrap: wrap;
     height: 100vh;
     margin: auto 0;
     width: 100%;
+    align-content: center;
 }
 .intro-text-section {
-    /*padding: 0 20px;*/
-    /*margin: auto 20px;*/
-    margin-right: 50px;
     max-width: 25rem;
 }
 .intro-text-section h1 {
@@ -37,9 +38,8 @@ body {
 }
 
 .form-section {
-    margin-left: 50px;
     /*margin: auto 20px;*/
-    /*min-width: 50%;*/
+    min-width: 26rem;
 }
 .form-section .trial-text {
     background-color: hsl(248, 32%, 49%);
