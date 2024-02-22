@@ -4,27 +4,27 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+html {
+    /* Set a base font size for the entire page */
+    font-size: 16px; 
+}
 body {
     background-color: hsl(0, 100%, 74%) ;
     background-image: url('bg-intro-mobile.png');
     font-size: 16px;
     color: white;
-    /*margin: auto;*/
 }
 .full-contain {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     height: 100vh;
     margin: auto;
-    padding-top: 50px;
-    width: 80%;
+    padding: 50px 35px;
+/*     width: 80%; */
 }
 .intro-text-section {
     *padding: 0 20px;
-    /*margin: auto 20px;*/
     max-width: 25rem;
 }
 .intro-text-section h1 {
@@ -37,8 +37,6 @@ body {
 }
 
 .form-section {
-    /*margin: auto 20px;*/
-    /*padding: 0 20px;*/
     /*min-width: 50%;*/
 }
 .form-section .trial-text {
@@ -53,7 +51,6 @@ body {
     padding: 15px 50px;
     color: hsl(246, 25%, 77%);
     font-weight: 400;
-
 }
 .form-section .trial-text p span {
     font-weight: 500;
@@ -64,7 +61,6 @@ form {
     background-color: white;
     padding: 25px;
     border-radius: 6px;
-    margin-bottom: 50px;
     box-shadow: 0 6px 5px 1px grey;
 }
 form .input-wrapper {
